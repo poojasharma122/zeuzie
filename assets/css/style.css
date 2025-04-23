@@ -233,7 +233,7 @@ Keyframe Animations
 /* banner section css start */
 
 .hero-bg {
-    background: url(../images/home-banner.jpg);
+    background: url(../images/home-banner-main.webp);
     width: 100%;
     padding: 140px 0;
     background-position: center center !important;
@@ -344,7 +344,7 @@ Keyframe Animations
 }
 
 .people-say-text {
-    background: #000000c7;
+    background: #000000f5;
     padding: 32px 20px;
     position: absolute;
     top: 45px;
@@ -374,7 +374,7 @@ Keyframe Animations
 
 
 .people-say-text-second {
-    background: #000000c7;
+    background: #000000f5;
     padding: 32px 20px;
     position: absolute;
     top: 60px;
@@ -558,7 +558,7 @@ p.first-text {
 
 /*newsletter sec  */
 .newsletter {
-    background-image: url("../images/home-banner.jpg");
+    background-image: url("../images/news-letter-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
