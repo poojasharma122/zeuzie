@@ -57,6 +57,19 @@
         height: auto;
         padding: 80px 0;
     }
+
+    .people-say-text {
+        top: 38px;
+        width: 70%;
+        }
+
+    .people-say-text-second {
+        width: 70%;
+    }
+
+    .after-banner-text {
+        padding: 0px 10px;
+    }
 }
 
 

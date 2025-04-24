@@ -345,10 +345,10 @@ Keyframe Animations
 
 .people-say-text {
     background: #000000f5;
-    padding: 32px 20px;
+    padding: 45px 20px;
     position: absolute;
     top: 45px;
-    width: 40%;
+    width: 50%;
     left: 25px;
     bottom: 45px;
 }
@@ -375,10 +375,10 @@ Keyframe Animations
 
 .people-say-text-second {
     background: #000000f5;
-    padding: 32px 20px;
+    padding: 45px 20px;
     position: absolute;
     top: 60px;
-    width: 40%;
+    width: 50%;
     right: 25px;
     bottom: 60px;
 }
@@ -722,15 +722,14 @@ h2.page-heading {
 }
 
 .sslLink {
-    background-image: url("../images/Group.svg");
+    background-image: url("../images/ssl-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 130px;
+    max-width: 134px;
     width: 100%;
-    height: 40px;
+    height: 47px;
     display: inline-block;
-
 }
 
 .socials {
