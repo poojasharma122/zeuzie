@@ -34,3 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
   // Read More Functionality JS end
+
+  AOS.init({
+    duration: 1500,
+  })
