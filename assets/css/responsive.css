@@ -110,7 +110,7 @@
     }
 
     .listing {
-        width: 90%;
+        width: 100%;
     }
 
     .pt-80 {
@@ -145,7 +145,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .hero-text h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .why-choose-heading h2 {
@@ -168,5 +168,20 @@
     }
     .top-hotel-text a h2 {
         font-size: 30px;
+    }
+}
+
+@media(max-width:425px){
+    .newsletter_formWrap {
+        max-width: 480px;
+        width: 100%;
+        flex-direction: column;
+         background-color: #00000000;
+    }
+
+    .newsletter_formWrap .newsletter_input {
+        background-color: #fff;
+        padding: 12px;
+        width: 90%;
     }
 }

@@ -772,6 +772,7 @@ h2.page-heading {
     height: 100%;
     width: 100%;
     fill: #fff;
+    padding: 9px;
 }
 .social svg {
     padding: 5px;
