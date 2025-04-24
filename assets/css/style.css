@@ -1315,4 +1315,103 @@ p.zeuzie-footer {
 
 /* personal page section end */
 
+/* ================================================================== */
 
+.blog-post-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.home-blogpost-heading h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+    padding-bottom: 20px;
+}
+
+.blogpost-inner {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.blogpost-content {
+    display: none;
+}
+
+button.close-text-button {
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.main-btn:hover {
+    border-color: #e1bd85;
+    background-color: #fff;
+    color: #e1bd85;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e1bd85;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+button.close-text-button:hover svg {
+    fill: #e1bd85;
+}
+
+.text-close svg {
+    height: 17px;
+    width: 17px;
+    fill: #fff;
+}
+
+button.close-text-button {
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.blogpost-text h3 {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #000;
+}
+
+.blogpost-content h5 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #af8c3e;
+}
+
+.blogpost-content ul li {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.blogpost-text p {
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+}
