@@ -449,7 +449,7 @@ p.first-text {
     border-radius: 10px;
     transition: 0.4s all ease-in-out;
     box-shadow: rgb(240 237 237 / 51%) 0px 5px 15px;
-    border: 2px solid #607D8B;
+    border: 2px solid #FFEB3B;
 }
 
 .why-choose:hover {
@@ -497,18 +497,20 @@ p.first-text {
   .zeuzie-listings {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    /* gap: 1rem; */
+    justify-content: space-between;
   }
 
   .listing {
-    flex: 1 1 30%;
+    /* flex: 1 1 33%; */
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     padding: 1rem;
-  }
+    margin-bottom: 20px;
+}
 
   .listing img {
     width: 100%;

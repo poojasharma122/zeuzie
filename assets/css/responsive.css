@@ -73,21 +73,52 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .zeuzie-listings {
       flex-direction: column;
       align-items: center;
     }
 
-    .listing {
-      max-width: 90%;
-    }
+   
     .footer_list {
         gap: 2rem;
     }
     .email-detail {
         padding: 40px 40px;
         text-align: center;
+    }
+
+    .top-hotel-text {
+        width: 100%;
+        padding: 30px 30px 10px 30px;
+    }
+
+    .top-hotel-main {
+        width: 100%;
+    }
+
+    .people-say-text {
+        position: static;
+        width: 100%;
+        padding: 45px 0px 0;
+    }
+
+    .people-say-text-second {
+        position: static;
+        width: 100%;
+        padding: 45px 0px 0;
+    }
+
+    .listing {
+        width: 100%;
+    }
+
+    .pt-80 {
+        padding-top: 40px;
+    }
+
+    .after-banner-text {
+        padding: 0px 0px;
     }
   }
 
@@ -107,5 +138,16 @@
     }
     .navbar {
         grid-template-columns: 1fr 1fr;
+    }
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .why-choose-heading h2 {
+        font-size: 30px;
+    }
+
+    .read-more-heading h2 {
+        font-size: 30px;
     }
 }
