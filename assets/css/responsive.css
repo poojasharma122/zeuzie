@@ -155,4 +155,18 @@
     .read-more-heading h2 {
         font-size: 30px;
     }
+    h2.booking-hotel-heading {
+        font-size: 29px;
+    }
+
+    .athens-heading h2 {
+        font-size: 30px;
+    }
+
+    .organize-text h2 {
+        font-size: 30px;
+    }
+    .top-hotel-text a h2 {
+        font-size: 30px;
+    }
 }

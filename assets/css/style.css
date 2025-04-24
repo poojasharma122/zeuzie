@@ -497,12 +497,12 @@ p.first-text {
   .zeuzie-listings {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 1rem; */
+    gap: 1rem;
     justify-content: space-between;
   }
 
   .listing {
-    /* flex: 1 1 33%; */
+    flex: 1 1 30%;
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
