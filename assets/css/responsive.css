@@ -110,7 +110,7 @@
     }
 
     .listing {
-        width: 100%;
+        width: 90%;
     }
 
     .pt-80 {
@@ -119,6 +119,11 @@
 
     .after-banner-text {
         padding: 0px 0px;
+    }
+
+    .why-choose {
+        height: auto;
+        margin-bottom: 20px;
     }
   }
 
