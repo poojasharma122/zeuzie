@@ -28,6 +28,10 @@ body{
     background-color: #000;
 }
 
+.main-scroll{
+    overflow: hidden;
+}
+
 .container {
     max-width: 1300px;
     width: 100%;
