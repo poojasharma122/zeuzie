@@ -145,7 +145,7 @@
     }
 
     .after-banner-text-main {
-        padding: 23px 30px 23px 00px;
+        padding: 23px 30px 23px 30px;
     }
 
     .high-stakes-banner {
@@ -240,6 +240,10 @@
 
     .btn {
         padding: 12px 15px;
+    }
+
+    .people-say-img {
+        height: 350px;
     }
 
     
