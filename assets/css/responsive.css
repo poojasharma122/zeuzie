@@ -100,13 +100,13 @@
     .people-say-text {
         position: static;
         width: 100%;
-        padding: 45px 0px 0;
+        padding: 26px 10px 10px;
     }
 
     .people-say-text-second {
         position: static;
         width: 100%;
-        padding: 45px 0px 0;
+        padding: 26px 10px 10px;
     }
 
     .listing {
@@ -117,6 +117,10 @@
         padding-top: 40px;
     }
 
+    .pt-60 {
+        padding-top: 40px;
+    }
+
     .after-banner-text {
         padding: 0px 0px;
     }
@@ -124,6 +128,28 @@
     .why-choose {
         height: auto;
         margin-bottom: 20px;
+    }
+
+    .inner-card {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .what-be-do {
+        height: auto;
+    }
+
+    .zuezie-card {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .after-banner-text-main {
+        padding: 23px 30px 23px 00px;
+    }
+
+    .high-stakes-banner {
+        height: 21.625rem;
     }
   }
 
@@ -184,4 +210,37 @@
         padding: 12px;
         width: 90%;
     }
+    .high-stakes-banner {
+        height: 21.625rem;
+    }
+
+    .top-hotel-heading h2 {
+        font-size: 30px;
+    }
+
+    .after-banner-text p {
+        margin-bottom: 0;
+    }
+
+    .athens-text ul li {
+        padding-bottom: 15px;
+    }
+
+    .athens-text {
+        padding-top: 20px;
+    }
+
+    .organize-text {
+        padding-top: 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 12px 15px;
+    }
+
+    
 }
