@@ -319,11 +319,11 @@ Keyframe Animations
     border-radius: 10px;
 }
 
-p.subheading-text {
-    font-size: 22px;
-    font-weight: 700;
+.after-banner-text h6 {
     color: #fff;
-    line-height: 100%;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 
 .after-banner-text p {
@@ -332,6 +332,7 @@ p.subheading-text {
     line-height: 25px;
     font-weight: 300;
     padding-top: 15px;
+    margin-bottom: 0;
 }
 
 .after-banner-text {
@@ -1441,4 +1442,20 @@ button.close-text-button {
     color: #000;
     font-size: 18px;
     line-height: 25px;
+}
+
+.blogpost-content ul li {
+    position: relative;
+}
+
+.blogpost-content ul li::before {
+    position: absolute;
+    content: ".";
+    left: -20px;
+    top: -19px;
+    font-size: 60px;
+}
+
+.blogpost-content ul {
+    padding-left: 20px;
 }
