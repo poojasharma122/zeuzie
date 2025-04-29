@@ -7,6 +7,7 @@
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <title>Σχετικά</title>
@@ -70,10 +71,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="after-banner-img" style="background-image: url(assets/images/what-we-do.jpg);"></div>
+                    <div class="after-banner-img" style="background-image: url(assets/images/what-we-do.jpg);" data-aos="fade-right"></div>
                 </div>
                 <div class="col-md-6">
-                    <div class="after-banner-text">
+                    <div class="after-banner-text" data-aos="fade-left">
                         <p>
                             Το Zeuzie δημιουργήθηκε με έναν ξεκάθαρο στόχο: να κάνει την αναζήτηση ξενοδοχείων στην
                             Ελλάδα απλή, αξιόπιστη και απόλυτα στοχευμένη.
@@ -92,7 +93,7 @@
 
 
     <!-- what be do section start -->
-    <section class="what-be-do " style="background-image: url(assets/images/what-we-do2.jpg);">
+    <section class="what-be-do  main-scroll" style="background-image: url(assets/images/what-we-do2.jpg);">
         <div class="container">
             <div class="what-be-do-heading">
                 <h2>
@@ -101,7 +102,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="inner-card">
+                    <div class="inner-card"  data-aos="fade-down-right">
                         <h3>
                             Παρουσιάζουμε Ξενοδοχεία Που Αξίζουν
                         </h3>
@@ -113,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="inner-card">
+                    <div class="inner-card"  data-aos="fade-down">
                         <h3>
                             Οργανώνουμε το Χάος
                         </h3>
@@ -123,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="inner-card">
+                    <div class="inner-card"  data-aos="fade-down-left">
                         <h3>
                             Γράφουμε Πραγματικό Περιεχόμενο
                         </h3>
@@ -140,11 +141,11 @@
 
 
      <!-- why zeuzie section start -->
-      <section class="why-zuezie pt-80">
+      <section class="why-zuezie pt-80  main-scroll">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="zuezie-card">
+                    <div class="zuezie-card"  data-aos="fade-up-right">
                         <h3>
                             Σε Ποιους Απευθυνόμαστε
                         </h3>
@@ -160,7 +161,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="zuezie-card">
+                    <div class="zuezie-card"  data-aos="fade-up-left">
                         <h3>
                             Γιατί Zeuzie;
                         </h3>
@@ -185,7 +186,7 @@
 
 
     <!-- footer sec start -->
-    <footer class="footer pt-80">
+    <footer class="footer pt-80 main-scroll">
         <div class="container">
             <div class="footer_wrapper">
                 <div class="footer_disclaimer ">
@@ -276,6 +277,8 @@
     </footer>
     <!-- footer sec end -->
 
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

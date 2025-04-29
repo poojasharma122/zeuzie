@@ -7,6 +7,7 @@
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <title>Επικοινωνήστε</title>
@@ -65,14 +66,14 @@
 
 
            <!- after-banner section start -->
-    <div class="after-banner pt-80 mb-40">
+    <div class="after-banner pt-80 mb-40 main-scroll">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="after-banner-img" style="background-image: url(assets/images/6990.jpg);"></div>
+                    <div class="after-banner-img" style="background-image: url(assets/images/6990.jpg);"  data-aos="fade-right"></div>
                 </div>
                 <div class="col-md-6">
-                    <div class="after-banner-text">
+                    <div class="after-banner-text" data-aos="fade-left">
                         <p>
                             Έχετε απορίες σχετικά με τη διαμονή σας στην Ελλάδα; Χρειάζεστε βοήθεια με κράτηση ή έχετε
                             να προτείνετε ένα ξενοδοχείο; Η ομάδα του Zeuzie είναι εδώ για να σας βοηθήσει.
@@ -90,12 +91,12 @@
 
 
     <!-- contact-form section start -->
-    <section class="contact-form">
+    <section class="contact-form  main-scroll  main-scroll">
         <div class="container">
             <div class="contact">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="email-detail">
+                        <div class="email-detail" data-aos="fade-down-right">
                             <h2>
                                 Email Επικοινωνίας
                             </h2>
@@ -111,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="contact-form-inner" data-aos="fade-down-left">
+                        <div class="contact-form-inner" data-aos="fade-down-left"  data-aos="fade-down-left">
                             <h2>Φόρμα Επικοινωνίας</h2>
 
                             <form id="contact_form" method="POST" enctype="multipart/form-data">
@@ -148,7 +149,7 @@
 
 
     <!-- footer sec start -->
-    <footer class="footer pt-80">
+    <footer class="footer pt-80 main-scroll">
         <div class="container">
             <div class="footer_wrapper">
                 <div class="footer_disclaimer ">
@@ -239,6 +240,8 @@
     </footer>
     <!-- footer sec end -->
 
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
