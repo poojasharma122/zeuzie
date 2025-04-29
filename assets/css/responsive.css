@@ -216,6 +216,7 @@
 
     .top-hotel-heading h2 {
         font-size: 30px;
+        line-height: 38px;
     }
 
     .after-banner-text p {
@@ -246,5 +247,29 @@
         height: 350px;
     }
 
-    
+    .footer_list {
+        gap: 2rem;
+    }
+
+    .footer_item a {
+        font-size: 16px;
+    }
+
+    .footer_list {
+        display: inline;
+    }
+
+    .footer_navbar {
+        text-align: center;
+    }
+
+    .top-hotel-text a h2 {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .top-hotel-text {
+        width: 100%;
+        padding: 30px 20px 10px 20px;
+    }
 }
