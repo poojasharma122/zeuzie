@@ -319,6 +319,13 @@ Keyframe Animations
     border-radius: 10px;
 }
 
+p.subheading-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 100%;
+}
+
 .after-banner-text p {
     font-size: 18px;
     color: #fff;
