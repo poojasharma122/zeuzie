@@ -15,7 +15,7 @@
         visibility: hidden;
         transition: opacity 0.4s ease, visibility 0.4s ease;
         z-index: 9999;
-        gap: 20px;
+        gap: 10px;
     }
 
     .personal_banner {
@@ -183,24 +183,35 @@
 
     .why-choose-heading h2 {
         font-size: 30px;
+        line-height: 33px;
     }
 
     .read-more-heading h2 {
         font-size: 30px;
     }
     h2.booking-hotel-heading {
-        font-size: 29px;
+        font-size: 30px;
+        line-height: 34px;
     }
 
     .athens-heading h2 {
         font-size: 30px;
+        line-height: 33px;
     }
 
     .organize-text h2 {
         font-size: 30px;
+        line-height: 38px;
     }
     .top-hotel-text a h2 {
         font-size: 30px;
+    }
+
+    .footer_list {
+        gap: 1rem;
+    }
+    .footer_disclaimer {
+        margin-bottom: 1.2rem;
     }
 }
 
