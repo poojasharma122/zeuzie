@@ -70,6 +70,9 @@
     .after-banner-text {
         padding: 0px 10px;
     }
+    .hero-text {
+        margin: 100px 0;
+    }
 }
 
 
@@ -150,6 +153,10 @@
 
     .high-stakes-banner {
         height: 21.625rem;
+    }
+
+    .hero-text {
+        margin: 100px 0;
     }
   }
 
@@ -271,5 +278,9 @@
     .top-hotel-text {
         width: 100%;
         padding: 30px 20px 10px 20px;
+    }
+
+    .hero-text {
+        margin: 60px 0;
     }
 }
