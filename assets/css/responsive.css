@@ -207,11 +207,24 @@
         font-size: 30px;
     }
 
-    .footer_list {
-        gap: 1rem;
-    }
+    
     .footer_disclaimer {
         margin-bottom: 1.2rem;
+    }
+    .footer_list {
+        gap: 2rem !important;
+    }
+
+    .footer_item a {
+        font-size: 18px;
+    }
+
+    .footer_list {
+        display: inline;
+    }
+
+    .footer_navbar {
+        text-align: center;
     }
 }
 
@@ -265,21 +278,7 @@
         height: 350px;
     }
 
-    .footer_list {
-        gap: 2rem;
-    }
-
-    .footer_item a {
-        font-size: 16px;
-    }
-
-    .footer_list {
-        display: inline;
-    }
-
-    .footer_navbar {
-        text-align: center;
-    }
+   
 
     .top-hotel-text a h2 {
         font-size: 27px;
