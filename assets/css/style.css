@@ -136,6 +136,10 @@ header.sticky {
 .mb-20 {
     margin-bottom: 20px;
   }
+
+  .mt{
+    margin-top: 20px;
+  }
   
   .mb-30 {
     margin-bottom: 30px;
